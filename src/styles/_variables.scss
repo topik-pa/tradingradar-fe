@@ -1,0 +1,49 @@
+/* COLORS */
+$white: #ffffff;
+$lighter-gray: #cccccc;
+$light-gray: #999999;
+$gray: #787878;
+$dark-gray: #666666;
+$darker-gray: #4d4d4d;
+$darkest-gray: #1a1a1a;
+$black: #000000;
+$blue:#3E78E8;
+$red: #E8453C;
+$green: #3db818;
+
+$primary: $darkest-gray;
+$secondary: $lighter-gray;
+$error: $red;
+$success: $green;
+$link: $blue;
+
+/*TRANSPARENCIES*/
+$transparent: .2;
+$semi-transparent: .5;
+$no-transparent: 1;
+$white20perc: rgba(255, 255, 255, .2);
+$white50perc: rgba(255, 255, 255, .5);
+
+/*SHADOWS*/
+$shadow: 0px 0px 16px 0px $black;
+
+/* FONT SIZES */
+$font-size-very-small: .85rem;
+$font-size-small: .9rem;
+$font-size-normal: 1rem;
+$font-size-big: 1.4rem;
+$font-size-bigger: 2rem;
+$font-size-huge: 3.2rem;
+$font-size-biggest: 4.5rem;
+
+/* DIMENSIONS */
+$input-height: 2.2rem;
+$button-padding: 1.5rem;
+$header-height: 7rem;
+$view-padding: 1rem;
+$section-margin: 1rem;
+
+/* BORDER RADIUS */
+$border-radius-small: .6rem;
+$border-radius-big: 1.6rem;
+$border-radius-round: 50%;

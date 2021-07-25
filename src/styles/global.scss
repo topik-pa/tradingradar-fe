@@ -1,0 +1,83 @@
+body {
+  font-family: HelveticaNeueLight, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-shadow:0 0 1px transparent;
+  text-rendering: optimizeLegibility;
+  letter-spacing: .03rem;
+  background-color: $darkest-gray;
+  color: $white;
+}
+
+a {
+  color: $blue;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+/*The header is fixed, so we need to adjust the view position on top (if the header is visible)*/
+.view {
+  margin-top: calc(#{$header-height} * 2);
+  padding: 0 $view-padding;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  &.login {
+    margin-top:0;
+    align-items: normal;
+  }
+}
+
+.feedback {
+  text-align: center;
+  margin:1rem;
+  &.error {
+    color: $error
+  }
+  &.success {
+    color: $success
+  }  
+}
+
+section {
+  margin-bottom: $section-margin;
+}
+
+input {
+  outline: none;
+}
+input[type=text], input[type=email], input[type=password], input[type=tel] {
+  display: block;
+  height: $input-height;
+  width: 100%;
+  text-indent: .6rem;
+  border: none;
+  background-color: $black;
+  color: $white;
+  padding: .3rem 0;
+  font-weight: 550;
+  &.error {
+    background-color: rgba(232, 69, 60, .2);
+  }
+}
+input[disabled] {
+  color: $gray;
+  background-color: $darkest-gray;
+}
+
+table {
+  border-collapse: collapse;
+  font-weight: lighter;
+}
+table th {
+  border-bottom: 1px solid $light-gray;
+  font-weight: bold;
+}
+table th, table td {
+  padding: 1rem;
+}
+table tr:nth-child(even){background-color: $darker-gray;}
+table th {
+  text-align: left;
+}

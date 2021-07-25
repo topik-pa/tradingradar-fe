@@ -1,0 +1,18 @@
+/* BUTTONS */
+@mixin vbc-button {
+  border-radius: $border-radius-small;
+  display: inline-block;
+  text-decoration: none;
+  font-weight: bold;
+  background: $white20perc;
+  padding: $button-padding;
+  color: $white;
+  cursor: pointer;
+  &:hover {
+    background: $black;
+  }
+}
+
+.vbc-button {
+  @include vbc-button;
+}
