@@ -1,3 +1,6 @@
 {
-  "hello": "hello world"
+  "hello": "hello world",
+  "project": {
+    "name": "tradingradar.net"
+  }
 }

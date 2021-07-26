@@ -1,5 +1,5 @@
 /* BUTTONS */
-@mixin vbc-button {
+@mixin button {
   border-radius: $border-radius-small;
   display: inline-block;
   text-decoration: none;
@@ -13,6 +13,6 @@
   }
 }
 
-.vbc-button {
-  @include vbc-button;
+.button {
+  @include button;
 }
