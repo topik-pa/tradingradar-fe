@@ -11,8 +11,7 @@ body {
 
 a {
   color: $blue;
-  text-decoration: underline;
-  cursor: pointer;
+  text-decoration: none;
 }
 
 /*The header is fixed, so we need to adjust the view position on top (if the header is visible)*/

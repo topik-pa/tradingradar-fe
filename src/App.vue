@@ -17,6 +17,7 @@ export default {
   @import '@/styles/fonts.scss';
   @import '@/styles/global.scss';
   @import '@/styles/headings.scss';
+  @import '@/styles/icons.scss';
   @import '@/styles/loading.scss';
   @import '@/styles/responsive.scss';
 </style>

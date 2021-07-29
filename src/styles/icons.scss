@@ -1,0 +1,26 @@
+[class^="icon-"], [class*=" icon-"] {
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-menu:before {
+  content: "\e903";
+}
+.icon-facebook-with-circle:before {
+  content: "\e900";
+}
+.icon-linkedin-with-circle:before {
+  content: "\e901";
+}
+.icon-youtube-with-circle:before {
+  content: "\e902";
+}

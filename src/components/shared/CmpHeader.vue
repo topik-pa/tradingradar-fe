@@ -1,12 +1,22 @@
 <template>
   <header>
-    <router-link :to="{name: 'Home'}" class="button" v-html="$t('project.name')"/>
+    <router-link :to="{name: 'Home'}" class="button">{{projName}}</router-link>
+    <CmpMenu/>
   </header>
 </template>
 
 <script>
+import CmpMenu from '@/components/shared/CmpMenu'
 export default {
-  name: 'CmpHeader'
+  name: 'CmpHeader',
+  components: {
+    CmpMenu
+  },
+  computed: {
+    projName () {
+      return this.$store.getters.getProject.name
+    }
+  }
 }
 </script>
 

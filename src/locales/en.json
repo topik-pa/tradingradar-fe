@@ -1,6 +1,8 @@
 {
   "hello": "hello world",
-  "project": {
-    "name": "tradingradar.net"
+  "menu": {
+    "home": "Home",
+    "about": "About",
+    "privacy": "Privacy"
   }
 }
