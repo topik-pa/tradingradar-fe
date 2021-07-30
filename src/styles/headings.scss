@@ -1,10 +1,15 @@
 h1 {
-  font-size: 4rem;
+  font-size: $font-size-biggest;
   margin-bottom: 4rem;
   letter-spacing: .1rem;
 }
 h2 {
-  font-size: 3rem;
-  margin-bottom: 3rem;
+  font-size: $font-size-huge;
+  margin-bottom: 2rem;
+  letter-spacing: .1rem;
+}
+h3 {
+  font-size: $font-size-bigger;
+  margin-bottom: 1rem;
   letter-spacing: .1rem;
 }

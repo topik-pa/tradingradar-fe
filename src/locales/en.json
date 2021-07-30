@@ -2,7 +2,16 @@
   "hello": "hello world",
   "menu": {
     "home": "Home",
+    "guide": "Guide",
+    "widgets": "Widgets",
+    "concepts": "Concepts",
     "about": "About",
     "privacy": "Privacy"
+  },
+  "cookie": {
+    "title": "This Web application uses cookies",
+    "text": "We use \"cookies\" to give you the best experience. Using this website means you are ok with this. Find out about this by following the page privacy policy",
+    "agree": "Agree",
+    "privacy": "Privacy policy"
   }
 }

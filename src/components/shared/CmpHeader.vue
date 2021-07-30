@@ -1,6 +1,6 @@
 <template>
   <header>
-    <router-link :to="{name: 'Home'}" class="button">{{projName}}</router-link>
+    <router-link :to="{name: 'Home'}">{{project}}</router-link>
     <CmpMenu/>
   </header>
 </template>
@@ -13,7 +13,7 @@ export default {
     CmpMenu
   },
   computed: {
-    projName () {
+    project () {
       return this.$store.getters.getProject.name
     }
   }

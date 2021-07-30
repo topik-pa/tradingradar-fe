@@ -1,10 +1,15 @@
 <template>
   <router-view/>
+  <CmpCookie/>
 </template>
 
 <script>
+import CmpCookie from '@/components/shared/CmpCookie'
 export default {
   name: 'App',
+  components: {
+    CmpCookie
+  },
   created () {
     const html = document.documentElement
     html.setAttribute('lang', this.$i18n.locale)

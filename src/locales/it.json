@@ -1,3 +1,13 @@
 {
-  "hello": "ciao mondo"
+  "hello": "ciao mondo",
+  "menu": {
+    "guide": "Guida",
+    "widgets": "Widget",
+    "concepts": "Concetti"
+  },
+  "cookie": {
+    "title": "Questa applicazione Web utilizza i cookie",
+    "text": "Questo sito o gli strumenti di terze parti in esso integrati fanno uso di cookie necessari per il funzionamento e per il raggiungimento delle finalità descritte nella cookie policy. Per saperne di più o per revocare il consenso relativamente a uno o tutti i cookie, fai riferimento alla cookie policy. Dichiari di accettare l’utilizzo di cookie chiudendo o nascondendo questo banner, cliccando un link o un pulsante o continuando a navigare in altro modo. Per ulteriori informazioni è possibile visitare la pagina privacy policy",
+    "agree": "Accetto"
+  }
 }

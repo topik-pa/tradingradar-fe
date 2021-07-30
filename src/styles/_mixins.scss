@@ -2,15 +2,20 @@
 @mixin button {
   border-radius: $border-radius-small;
   display: inline-block;
+  margin: .5rem;
   text-decoration: none;
-  font-weight: bold;
-  background: $white20perc;
+  font-weight: 550;
+  background: $blue;
   padding: $button-padding;
   color: $white;
   cursor: pointer;
-  &:hover {
-    background: $black;
+  &.secondary {
+    background: $light-gray;
   }
+  &:hover {
+    color: $lighter-gray;
+  }
+  
 }
 
 .button {
