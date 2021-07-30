@@ -1,14 +1,17 @@
 <template>
   <router-view/>
   <CmpCookie/>
+  <CmpGoToTop/>
 </template>
 
 <script>
 import CmpCookie from '@/components/shared/CmpCookie'
+import CmpGoToTop from '@/components/shared/CmpGoToTop'
 export default {
   name: 'App',
   components: {
-    CmpCookie
+    CmpCookie,
+    CmpGoToTop
   },
   created () {
     const html = document.documentElement
